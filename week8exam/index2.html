@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+<html>
+<body>
+
+<h1>Exam Part 2</h1>
+<script>
+function sumInput()
+{ 
+	let numbers = [1,2,3,4,5];
+	
+	while (true)
+	{ 
+		let value = prompt("Please enter a number please! Press \"cancel\" to quit!", 0);
+		
+		if (value === "6" || value === null || !isFinate(value)) break;
+		numbers.push(+value);
+		}
+		let sum = 0;
+		
+		for (let number of numbers)
+		{
+			sum += number;
+			}
+			return sum;
+			
+		}
+			alert(sumInput() );
+		</script>
+</body>
+</html> 
