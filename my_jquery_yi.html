@@ -11,13 +11,35 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 			<!--
-				Abby Ruffier's JavaScript Labs
-				 Filename: labs.html
+				Abby Ruffier's JavaScript Landing Page with Jquery
+				 Filename: my_jquery_yi.html
 
 				 Author:   Abby Ruffier
 				 Date:    05/12/2021
 					--> <!-- Font Awesome JS-->
 	<script src="https://kit.fontawesome.com/3c9891bfb7.js" crossorigin="anonymous"></script>
+	<style>
+		p {
+		  margin: 5px;
+		  cursor: pointer;
+		}
+		p:hover {
+		  background: yellow;
+		}
+		</style>
+		<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	  </head>
+	  <body>
+	   
+	  <p>Click Me!</p>
+	  <p>Now click two!</p>
+	  <p>Click me three!</p>
+	   
+	  <script>
+	  $( "p" ).click(function() {
+		$( this ).slideUp();
+	  });
+	  </script>
 	<!-- bootstrap nav bar -->
 	<!-- bootstrap color -->
    </head>
@@ -25,33 +47,26 @@
    	<!-- bootstrap nav bar -->
 	<!-- bootstrap color -->
     <nav class="navbar navbar-dark bg-dark">
- <a class="navbar-dark bg dark" href="index.html">Home</a><a class="navbar-dark bg dark" href="labs.html">Labs</a><a class="navbar-dark bg dark" href="quiz.html">Quizzes</a> <a class="navbar-dark bg dark" href="projects.html">Projects</a>
+ <a class="navbar-dark bg dark" href="ARJS.html">Home</a><a class="navbar-dark bg dark" href="labs.html">Labs</a><a class="navbar-dark bg dark" href="quiz.html">Quizzes</a> <a class="navbar-dark bg dark" href="projects.html">Projects</a>
   <a class="navbar-dark bg dark" href="mailto:aruffier1016@starkstate.net"><i class="fas fa-envelope-open-text"></i></a></nav>
    <!-- bootstrap hero -->
    <div class="jumbotron">
   <h1 class="display-4">Abby Ruffier</h1>
-  <p class="lead">WDD 221 Spring 2021 Labs</p>
+  <p class="lead">WDD 221 Spring 2021</p>
   <p class="lead">
   </p>
    	<img src="images/coffeebeans.jpg" alt="coffee beans">
 </div>
-	 	<!-- ul -->
+	 	<!-- bootstrap grid -->
 		<div class="container">
   <div class="row">
-<ul>
-<li><a href="wk2lab/plants.html">week 2</a></li>
-<li><a href="week4/exam.html">week 4</a></li>
-<li><a href="week4/exam2.html">week 4 converter</a></li>
-<li><a href="week7lab/index.html">week 7</a></li>
-<li><a href="week8exam/index.html">Part 1 Exam</a></li>
-<li><a href="week8exam/index2.html">Part 2 Exam</a></li>
-<li><a href="startFiles/tipCal.html">week 9</a></li>
-<li><a href="Wk10_Lab/quiz.html">week 10</a></li>
-<li><a href="Wk11_Lab/jQueryLab.html">week 11</a></li>
-<li><a href="jquery/my_j_query_yi.html">jquery final Exam</a></li>
-<li><a href="ajax/finalAJAX_yi.html">Ajax final Exam</a></li>
-<li><a href="finalpart3/my_WordGame_yi.html">final Exam</a></li>
-</ul>
+	Welcome to my Landing Page for WDD 221 in Spring 2021! This is where I will be posting all of my assignments and projects related to JavaScript!
+  </div>
+  <div id="target">
+	<p>thanks to jquery, the paragraphs are now interactive!</p>
+  </div>
+  <div id="other">
+	<p>Isn't that cool?</p>
   </div>
 </div>
  
